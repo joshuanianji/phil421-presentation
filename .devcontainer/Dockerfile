@@ -10,3 +10,6 @@ EXPOSE 8080
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
+
+# fix permissions on github CLI mount (see devcontainer.json)
+RUN mkdir -p /home/node/.config/gh && chown -R node:node /home/node/.config

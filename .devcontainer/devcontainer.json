@@ -1,10 +1,9 @@
 {
-	"name": "Vue (Community)",
+	"name": "Phil 421",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": ".."
 	},
-
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
@@ -12,24 +11,31 @@
 			// Add the IDs of extensions you want installed when the container is created.
 			"extensions": [
 				"dbaeumer.vscode-eslint",
-				"octref.vetur",
-				"antfu.slidev"
+				"antfu.slidev",
+				"Vue.volar"
 			]
 		}
 	},
-	
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
 		8080
 	],
-	
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",
-	
 	// Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node",
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {},
 		"ghcr.io/devcontainers/features/github-cli:1": {}
-	}
+	},
+	// make the github CLI auth token persist across restarts
+	// here, I choose to make it the same name (without a devcontainerId tag)
+	// just because i'm the only person that's going to be working on this project lol
+	"mounts": [
+		{
+			"source": "devcontainer-gh-cli-auth",
+			"target": "/home/node/.config/gh",
+			"type": "volume"
+		}
+	]
 }
