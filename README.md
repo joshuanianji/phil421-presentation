@@ -1,11 +1,13 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Monads as Modalities
+
+This repo contains the code needed to run "Monads as Modalities," my presentation for my Phil 421 class (Modal Logic).
+
+Built using [slidev](https://github.com/slidevjs/slidev).
+
+## Running
 
 To start the slide show:
 
 - `npm install`
 - `npm run dev`
 - visit http://localhost:3030
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
