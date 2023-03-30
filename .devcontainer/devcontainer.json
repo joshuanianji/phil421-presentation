@@ -12,7 +12,8 @@
 			"extensions": [
 				"dbaeumer.vscode-eslint",
 				"antfu.slidev",
-				"Vue.volar"
+				"Vue.volar",
+				"GitHub.copilot"
 			]
 		}
 	},
