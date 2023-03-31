@@ -21,6 +21,7 @@ fonts:
   # basically the text
   sans: 'Computer Modern Serif'
   local: 'Computer Modern Serif'
+favicon: '/icon.png'
 ---
 
 # Monads as Modalities
