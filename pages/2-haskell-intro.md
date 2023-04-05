@@ -92,6 +92,9 @@ p = (2, "Hi!")
 
 a :: Int
 a = fst p -- a = 2
+
+b :: String
+b = snd p -- b = "Hi!"
 ```
 
 ::right::
