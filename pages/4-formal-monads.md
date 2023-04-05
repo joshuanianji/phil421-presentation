@@ -14,6 +14,7 @@ return :: a -> m a
 <br />
 
 <v-click>
+
 ```hs
 return :: a -> Maybe a
 return a = Just a
@@ -21,7 +22,18 @@ return a = Just a
 return :: a -> Either String a
 return a = Right a
 ```
+
+<br />
+
+### Recall
+
+```hs
+Maybe a = Nothing | Just a
+Either a b = Left a | Right b
+```
+
 </v-click>
+
 
 ::right::
 
