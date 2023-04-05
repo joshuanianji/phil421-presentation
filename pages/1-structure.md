@@ -1,22 +1,17 @@
-# Questions
+# Structure
 
-<v-clicks>
-
-- What is a Monad?
-- How does it relate to Modal Logic?
-
-</v-clicks>
+- INTRO
+    - Strongly-Typed Functional Programming (via Haskell)
+    - Basics of Monads
+- MONADS AS MODALITIES
+- Conclusion
 
 <br />
 
 <div v-click>
 
-<h1>Structure</h1>
+<h1>DISCLAIMER</h1>
 
-- Strongly-Typed Functional Programming
-- Basics of Monads
-- Computational Lambda Calculus
-- Extensions 
-- Conclusion
+<p bold>MONADS ARE HARD. HASKELL IS HARD.</p>
 
 </div>
