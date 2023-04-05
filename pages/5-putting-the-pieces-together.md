@@ -5,27 +5,27 @@ clicks: 1
 
 <div v-click-hide at="1">
 
-| Simple   | `Int`, `String`, `Bool`       |            |
-|----------|-------------------------------|------------|
-| Function | `Int -> Int`, `a -> String`   |            |
-| Pair     | `(A, B)`                      |            |
-| Sum      | `Maybe a = Just a \| Nothing` |            |
-| Unit     | `()`                          |            |
-| Void     | `Void`                        |            |
-| Monad    | `m a`                         | $\diamond$ |
+| Simple   | `Int`, `String`, `Bool`       |              |
+|----------|-------------------------------|--------------|
+| Function | `Int -> Int`, `a -> String`   |              |
+| Pair     | `(A, B)`                      |              |
+| Sum      | `Maybe a = Just a \| Nothing` |              |
+| Unit     | `()`                          |              |
+| Void     | `Void`                        |              |
+| Monad    | `m a`                         | $\diamond A$ |
 
 </div>
 
 <v-click at="0">
 
-| Simple   | `Int`, `String`, `Bool`       | $A$         |
-|----------|-------------------------------|-------------|
-| Function | `Int -> Int`, `a -> String`   | $A \to B$   |
-| Pair     | `(A, B)`                      | $A \land B$ |
-| Sum      | `Maybe a = Just a \| Nothing` | $A \lor B$  |
-| Unit     | `()`                          | $\top$      |
-| Void     | `Void`                        | $\bot$      |
-| Monad    | `m a`                         | $\diamond$  |
+| Simple   | `Int`, `String`, `Bool`       | $A$           |
+|----------|-------------------------------|---------------|
+| Function | `Int -> Int`, `a -> String`   | $A \to B$     |
+| Pair     | `(A, B)`                      | $A \land B$   |
+| Sum      | `Maybe a = Just a \| Nothing` | $A \lor B$    |
+| Unit     | `()`                          | $\top$        |
+| Void     | `Void`                        | $\bot$        |
+| Monad    | `m a`                         | $\diamond A$  |
 
 </v-click>
 
