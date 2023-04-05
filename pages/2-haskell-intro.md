@@ -11,7 +11,7 @@ def main():
 
 <br />
 
-<div v-click-hide>
+<div v-click-hide at="1">
 ```py
 # randomlib code
 def factorial(n: int) -> int:
@@ -22,7 +22,7 @@ def factorial(n: int) -> int:
 ```
 </div>
 
-<v-click>
+<v-click at="0">
 ```py
 import os
 # randomlib code
