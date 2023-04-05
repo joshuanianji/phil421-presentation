@@ -55,8 +55,8 @@ bind m f = join (fmap f m)
 
 $$
 \begin{align*}
-    \text{BIND:}& \qquad \diamond A \to ((a \to \diamond B) \to \diamond B) \\
-    \text{BIND':}& \qquad (\diamond A \land (a \to \diamond B)) \to \diamond B
+    \text{BIND:}& \qquad \diamond A \to ((A \to \diamond B) \to \diamond B) \\
+    \text{BIND':}& \qquad (\diamond A \land (A \to \diamond B)) \to \diamond B
 \end{align*}
 $$
 
