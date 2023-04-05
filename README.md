@@ -14,5 +14,7 @@ To start the slide show:
 
 ## Credit
 
+- [Computational Types from a Logical Perspective](https://doi.org/10.1017/S0956796898002998)
+- [Monad as Modality](https://doi.org/10.1016/S0304-3975(96)00169-7) by Satoshi Kobayashi
 - [Slidev](https://github.com/slidevjs/slidev)
 - [Computer Modern Fonts](https://checkmyworking.com/cm-web-fonts/#serif)
