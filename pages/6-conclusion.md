@@ -8,7 +8,7 @@ What is this useful for?
 
 ---
 
-<BigImage imgsrc="/img/conclusion.png" classes="px-48" />
+<BigImage imgsrc="/img/conclusion.png" classes="px-56" />
 
 ---
 
